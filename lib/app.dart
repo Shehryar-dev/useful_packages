@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:useful_packages/home/home_screen.dart';
+
+import 'constants/screen_paths.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});

@@ -18,7 +18,8 @@ class FlutterToastExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('FlutterToast Example')),
+      appBar: AppBar(title: Text('FlutterToast Example', style: Theme.of(context).textTheme.titleMedium!.apply(color: Colors.white),
+      ), backgroundColor: Colors.indigo.shade900, iconTheme: IconThemeData(color: Colors.white),),
       body: Center(
         child: ElevatedButton.icon(
           onPressed: _showToast,
