@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:useful_packages/packages/1_flutter_toast/flutter_toast.dart';
+
+import '../constants/screen_paths.dart';
 
 class UsefulPackageHomeScreen extends StatelessWidget {
   const UsefulPackageHomeScreen({super.key});
@@ -18,7 +18,7 @@ class UsefulPackageHomeScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('📦 Useful Flutter Packages'),
+        title:  Text('📦 Useful Flutter Packages',style: Theme.of(context).textTheme.titleMedium!.apply(color: Colors.white),),
         centerTitle: true,
         backgroundColor: Colors.deepPurple.shade900,
       ),

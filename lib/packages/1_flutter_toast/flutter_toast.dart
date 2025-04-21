@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:fluttertoast/fluttertoast.dart';
+
+import '../../constants/screen_paths.dart';
 
 class FlutterToastExample extends StatelessWidget {
   const FlutterToastExample({super.key});
