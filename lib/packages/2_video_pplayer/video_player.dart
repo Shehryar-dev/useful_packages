@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:video_player/video_player.dart';
+
+import '../../constants/screen_paths.dart';
 
 class VideoPlayerExample extends StatefulWidget {
   const VideoPlayerExample({super.key});

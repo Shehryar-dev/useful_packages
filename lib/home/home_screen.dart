@@ -1,5 +1,4 @@
 
-import 'package:useful_packages/packages/2_video_pplayer/video_player.dart';
 
 import '../constants/screen_paths.dart';
 
