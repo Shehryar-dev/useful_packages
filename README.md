@@ -16,6 +16,7 @@ This initiative helps me understand third-party tools better, improve integratio
 ## ✅ Packages Implemented
 
 - [x] **fluttertoast** (Added on: *April 21, 2025*) – *Show toast messages easily*
+- [x] **video_player** (Added on: *April 21, 2025*) – *Stream & control videos in your app*
 - [ ] Upcoming packages (Stay tuned...)
 
 ---
