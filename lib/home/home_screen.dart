@@ -1,4 +1,6 @@
 
+import 'package:useful_packages/packages/2_video_pplayer/video_player.dart';
+
 import '../constants/screen_paths.dart';
 
 class UsefulPackageHomeScreen extends StatelessWidget {
@@ -12,6 +14,12 @@ class UsefulPackageHomeScreen extends StatelessWidget {
         subtitle: 'Show toast messages easily',
         icon: Icons.notifications_active_outlined,
         destination: const FlutterToastExample(),
+      ),
+      _PackageItem(
+        title: 'Video Player',
+        subtitle: 'Stream & control videos in your app',
+        icon: Icons.video_library_outlined,
+        destination: const VideoPlayerExample(), // ADD THIS
       ),
       // Future package screens can be added here
     ];
