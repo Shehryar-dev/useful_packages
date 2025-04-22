@@ -39,8 +39,8 @@ class _VideoPlayerExampleState extends State<VideoPlayerExample> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('🎬 Video Player Example'),
-        backgroundColor: Colors.deepPurple.shade900,
+        title:  Text('🎬 Video Player Example',style: Theme.of(context).textTheme.titleMedium!.apply(color: Colors.white),),
+        backgroundColor: Colors.indigo.shade900,
       ),
       body: Center(
         child: _controller.value.isInitialized
