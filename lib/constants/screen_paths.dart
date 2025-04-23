@@ -2,8 +2,8 @@
 export 'package:useful_packages/app.dart';
 export 'package:useful_packages/home/home_screen.dart';
 export 'package:useful_packages/packages/1_flutter_toast/flutter_toast.dart';
-export 'package:useful_packages/packages/2_video_pplayer/video_player.dart';
-
+export 'package:useful_packages/packages/2_video_player/video_player.dart';
+export 'package:useful_packages/packages/3_feedback_package/3_feedback_pack.dart';
 
 
 

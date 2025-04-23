@@ -1,3 +1,5 @@
+
+
 import '../constants/screen_paths.dart';
 
 class UsefulPackageHomeScreen extends StatelessWidget {
@@ -18,6 +20,13 @@ class UsefulPackageHomeScreen extends StatelessWidget {
         icon: Icons.video_library_outlined,
         destination: const VideoPlayerExample(), // ADD THIS
       ),
+      _PackageItem(
+        title: 'Package 3 - feedback',
+        subtitle: 'Collect in-app feedback with screenshot support',
+        icon: Icons.feedback_outlined,
+        destination: const FeedbackExampleScreen(),
+      ),
+
       // Future package screens can be added here
     ];
 
