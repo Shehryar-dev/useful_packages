@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:feedback/feedback.dart';
+
+import '../../constants/screen_paths.dart';
 
 class FeedbackExampleScreen extends StatelessWidget {
   const FeedbackExampleScreen({super.key});
@@ -16,7 +16,7 @@ class FeedbackExampleScreen extends StatelessWidget {
         builder: (context) => Scaffold(
           appBar: AppBar(
             title: const Text('Feedback Package Example'),
-            backgroundColor: Colors.teal,
+            backgroundColor: Colors.indigo.shade900,
           ),
           body: Center(
             child: ElevatedButton.icon(
@@ -29,7 +29,7 @@ class FeedbackExampleScreen extends StatelessWidget {
               icon: const Icon(Icons.feedback_outlined),
               label: const Text('Send Feedback'),
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.teal,
+                backgroundColor: Colors.indigo.shade900,
                 padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 14),
               ),
             ),

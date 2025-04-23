@@ -22,6 +22,7 @@ export 'package:useful_packages/packages/3_feedback_package/3_feedback_pack.dart
 ///Packages Url
 export 'package:fluttertoast/fluttertoast.dart';
 export 'package:video_player/video_player.dart';
+export 'package:feedback/feedback.dart';
 
 
 
