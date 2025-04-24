@@ -9,8 +9,8 @@ class ShimmerExample extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Shimmer Loading Example'),
-        backgroundColor: Colors.deepPurple,
+        title: const Text('Shimmer Loading Example', style: TextStyle(color: Colors.white),),
+        backgroundColor: Colors.indigo.shade900,
         centerTitle: true,
       ),
       body: ListView.builder(
