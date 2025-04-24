@@ -1,5 +1,7 @@
 
 
+import 'package:useful_packages/packages/4_shimmer_package/shimmer_effect.dart';
+
 import '../constants/screen_paths.dart';
 
 class UsefulPackageHomeScreen extends StatelessWidget {
@@ -25,6 +27,12 @@ class UsefulPackageHomeScreen extends StatelessWidget {
         subtitle: 'Collect in-app feedback with screenshot support',
         icon: Icons.feedback_outlined,
         destination: const FeedbackExampleScreen(),
+      ),
+      _PackageItem(
+        title: 'Shimmer',
+        subtitle: 'Create beautiful skeleton loaders for content placeholders',
+        icon: Icons.blur_on,
+        destination: const ShimmerExample(),
       ),
 
       // Future package screens can be added here
