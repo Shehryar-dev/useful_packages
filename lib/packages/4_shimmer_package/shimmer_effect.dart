@@ -1,5 +1,6 @@
-import 'package:flutter/material.dart';
-import 'package:shimmer/shimmer.dart';
+
+
+import '../../constants/screen_paths.dart';
 
 class ShimmerExample extends StatelessWidget {
   const ShimmerExample({super.key});

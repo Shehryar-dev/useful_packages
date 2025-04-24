@@ -1,6 +1,5 @@
 
 
-import 'package:useful_packages/packages/4_shimmer_package/shimmer_effect.dart';
 
 import '../constants/screen_paths.dart';
 
