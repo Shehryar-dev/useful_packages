@@ -17,7 +17,7 @@ This initiative helps me understand third-party tools better, improve integratio
 
 - [x] **fluttertoast** (Added on: *April 21, 2025*) – *Show toast messages easily*
 - [x] **video_player** (Added on: *April 22, 2025*) – *Stream & control videos in your app*
-- [x] **feedback** (Added on: *April 21, 2025*) – *Send annotated user feedback easily*
+- [x] **feedback** (Added on: *April 23, 2025*) – *Send annotated user feedback easily*
 - [x] **shimmer** (Added on: *April 24, 2025*) – *Create skeleton loaders for better UX during data load*
 - [ ] Upcoming packages (Stay tuned...)
 
