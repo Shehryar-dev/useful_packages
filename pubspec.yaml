@@ -39,6 +39,7 @@ dependencies:
   video_player: ^2.7.0
   feedback: ^3.1.0
   shimmer: ^3.0.0
+  flutter_rating_bar: ^4.0.1
 
 
 dev_dependencies:
