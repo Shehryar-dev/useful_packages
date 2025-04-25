@@ -1,6 +1,8 @@
 
 
 
+import 'package:useful_packages/packages/5_flutter_rating_bar/flutter_rating_bar.dart';
+
 import '../constants/screen_paths.dart';
 
 class UsefulPackageHomeScreen extends StatelessWidget {
@@ -32,6 +34,12 @@ class UsefulPackageHomeScreen extends StatelessWidget {
         subtitle: 'Create beautiful skeleton loaders for content placeholders',
         icon: Icons.blur_on,
         destination: const ShimmerExample(),
+      ),
+      _PackageItem(
+        title: 'flutter_rating_bar',
+        subtitle: 'Allow users to rate with stars (1-5) with customization',
+        icon: Icons.star_rate,
+        destination: const RatingBarExample(),
       ),
 
       // Future package screens can be added here
