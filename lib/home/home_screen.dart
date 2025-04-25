@@ -1,8 +1,3 @@
-
-
-
-import 'package:useful_packages/packages/5_flutter_rating_bar/flutter_rating_bar.dart';
-
 import '../constants/screen_paths.dart';
 
 class UsefulPackageHomeScreen extends StatelessWidget {
