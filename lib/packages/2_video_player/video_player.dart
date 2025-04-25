@@ -41,6 +41,7 @@ class _VideoPlayerExampleState extends State<VideoPlayerExample> {
       appBar: AppBar(
         title:  Text('🎬 Video Player Example',style: Theme.of(context).textTheme.titleMedium!.apply(color: Colors.white),),
         backgroundColor: Colors.indigo.shade900,
+        iconTheme: IconThemeData(color: Colors.white),
       ),
       body: Center(
         child: _controller.value.isInitialized

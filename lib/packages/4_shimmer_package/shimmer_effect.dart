@@ -11,6 +11,7 @@ class ShimmerExample extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Shimmer Loading Example', style: TextStyle(color: Colors.white),),
         backgroundColor: Colors.indigo.shade900,
+        iconTheme: IconThemeData(color: Colors.white),
         centerTitle: true,
       ),
       body: ListView.builder(
