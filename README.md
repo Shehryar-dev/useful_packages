@@ -20,6 +20,7 @@ This initiative helps me understand third-party tools better, improve integratio
 - [x] **feedback** (Added on: *April 23, 2025*) – *Send annotated user feedback easily*
 - [x] **shimmer** (Added on: *April 24, 2025*) – *Create skeleton loaders for better UX during data load*
 - [x] **flutter_rating_bar** (Added on: *April 25, 2025*) – *Collect/display star ratings easily*
+- [x] **animated_list_plus** (Added on: *April 26, 2025*) – *Add/remove items with smooth list animations*
 - [ ] Upcoming packages (Stay tuned...)
 
 ---
