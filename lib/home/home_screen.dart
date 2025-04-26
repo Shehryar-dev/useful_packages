@@ -1,4 +1,3 @@
-import 'package:useful_packages/packages/6_animated_list_plus/animated_list_plus.dart';
 
 import '../constants/screen_paths.dart';
 
