@@ -6,7 +6,8 @@ export 'package:useful_packages/packages/2_video_player/video_player.dart';
 export 'package:useful_packages/packages/3_feedback_package/3_feedback_pack.dart';
 export 'package:useful_packages/packages/4_shimmer_package/shimmer_effect.dart';
 export 'package:useful_packages/packages/5_flutter_rating_bar/flutter_rating_bar.dart';
-
+export 'package:animated_list_plus/animated_list_plus.dart';
+export 'package:animated_list_plus/transitions.dart';
 
 
 

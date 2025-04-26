@@ -1,6 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:animated_list_plus/animated_list_plus.dart';
-import 'package:animated_list_plus/transitions.dart';
+
+import '../../constants/screen_paths.dart';
 
 class AnimatedListExample extends StatefulWidget {
   const AnimatedListExample({super.key});
@@ -18,7 +17,7 @@ class _AnimatedListExampleState extends State<AnimatedListExample> {
       appBar: AppBar(
         title: const Text('Animated List Example'),
         centerTitle: true,
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: Colors.indigo.shade900,
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -54,7 +53,7 @@ class _AnimatedListExampleState extends State<AnimatedListExample> {
             _items.add(_items.length);
           });
         },
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: Colors.indigo.shade900,
         child: const Icon(Icons.add),
       ),
     );
