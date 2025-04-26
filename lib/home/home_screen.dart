@@ -1,3 +1,5 @@
+import 'package:useful_packages/packages/6_animated_list_plus/animated_list_plus.dart';
+
 import '../constants/screen_paths.dart';
 
 class UsefulPackageHomeScreen extends StatelessWidget {
@@ -36,6 +38,13 @@ class UsefulPackageHomeScreen extends StatelessWidget {
         icon: Icons.star_rate,
         destination: const RatingBarExample(),
       ),
+      _PackageItem(
+        title: 'animated_list_plus',
+        subtitle: 'Create beautiful animated lists easily',
+        icon: Icons.playlist_add_check_circle,
+        destination: const AnimatedListExample(),
+      ),
+
 
       // Future package screens can be added here
     ];
@@ -54,6 +63,7 @@ class UsefulPackageHomeScreen extends StatelessWidget {
           return _AnimatedCard(item: item);
         },
       ),
+
     );
   }
 }
