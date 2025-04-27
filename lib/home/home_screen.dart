@@ -1,4 +1,6 @@
 
+import 'package:useful_packages/packages/7_animated_do/animated_do_package.dart';
+
 import '../constants/screen_paths.dart';
 
 class UsefulPackageHomeScreen extends StatelessWidget {
@@ -42,6 +44,13 @@ class UsefulPackageHomeScreen extends StatelessWidget {
         subtitle: 'Create beautiful animated lists easily',
         icon: Icons.playlist_add_check_circle,
         destination: const AnimatedListExample(),
+      ),
+
+      _PackageItem(
+        title: 'animate_do',
+        subtitle: 'Beautiful pre-built animations easily',
+        icon: Icons.animation,
+        destination: const AnimateDoExample(),
       ),
 
 
