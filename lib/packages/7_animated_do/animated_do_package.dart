@@ -1,5 +1,3 @@
-
-
 import '../../constants/screen_paths.dart';
 
 class AnimateDoExample extends StatelessWidget {
@@ -9,9 +7,10 @@ class AnimateDoExample extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Animate Do Example'),
+        title: const Text('Animate Do Example', style: TextStyle(color: Colors.white),),
         centerTitle: true,
-        backgroundColor: Colors.pinkAccent,
+        iconTheme: IconThemeData(color: Colors.white),
+        backgroundColor: Colors.purple.shade900,
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -27,7 +26,7 @@ class AnimateDoExample extends StatelessWidget {
                 'Welcome to Animate Do!',
                 style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                   fontWeight: FontWeight.bold,
-                  color: Colors.pinkAccent,
+                  color: Colors.purple.shade900,
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -36,14 +35,14 @@ class AnimateDoExample extends StatelessWidget {
             SlideInLeft(
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.pinkAccent,
+                  backgroundColor: Colors.purple.shade900,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(12),
                   ),
                   padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
                 ),
                 onPressed: () {},
-                child: const Text('Click Me', style: TextStyle(fontSize: 18)),
+                child: const Text('Click Me', style: TextStyle(fontSize: 18, color: Colors.white)),
               ),
             ),
           ],
