@@ -7,6 +7,7 @@ export 'package:useful_packages/packages/3_feedback_package/3_feedback_pack.dart
 export 'package:useful_packages/packages/4_shimmer_package/shimmer_effect.dart';
 export 'package:useful_packages/packages/5_flutter_rating_bar/flutter_rating_bar.dart';
 export 'package:useful_packages/packages/6_animated_list_plus/animated_list_plus.dart';
+export 'package:useful_packages/packages/7_animated_do/animated_do_package.dart';
 
 
 
@@ -27,6 +28,9 @@ export 'package:shimmer/shimmer.dart';
 export 'package:flutter_rating_bar/flutter_rating_bar.dart';
 export 'package:animated_list_plus/animated_list_plus.dart';
 export 'package:animated_list_plus/transitions.dart';
+export 'package:animate_do/animate_do.dart';
+
+
 
 ///Flutter lib
 export 'dart:io';

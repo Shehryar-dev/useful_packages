@@ -1,5 +1,4 @@
 
-import 'package:useful_packages/packages/7_animated_do/animated_do_package.dart';
 
 import '../constants/screen_paths.dart';
 

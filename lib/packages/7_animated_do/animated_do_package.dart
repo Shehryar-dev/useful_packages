@@ -1,5 +1,6 @@
-import 'package:flutter/material.dart';
-import 'package:animate_do/animate_do.dart';
+
+
+import '../../constants/screen_paths.dart';
 
 class AnimateDoExample extends StatelessWidget {
   const AnimateDoExample({super.key});
