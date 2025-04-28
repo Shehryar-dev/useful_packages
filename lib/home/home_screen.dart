@@ -1,6 +1,7 @@
 
 
 import '../constants/screen_paths.dart';
+import '../packages/8_sample_animation/sample_animation.dart';
 
 class UsefulPackageHomeScreen extends StatelessWidget {
   const UsefulPackageHomeScreen({super.key});
@@ -51,6 +52,13 @@ class UsefulPackageHomeScreen extends StatelessWidget {
         icon: Icons.animation,
         destination: const AnimateDoExample(),
       ),
+      _PackageItem(
+        title: 'simple_animations',
+        subtitle: 'Create custom and multi-property animations easily',
+        icon: Icons.animation_outlined,
+        destination: const SimpleAnimationsExample(),
+      ),
+
 
 
       // Future package screens can be added here
