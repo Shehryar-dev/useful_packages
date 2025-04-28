@@ -29,7 +29,7 @@ export 'package:flutter_rating_bar/flutter_rating_bar.dart';
 export 'package:animated_list_plus/animated_list_plus.dart';
 export 'package:animated_list_plus/transitions.dart';
 export 'package:animate_do/animate_do.dart';
-
+export 'package:simple_animations/simple_animations.dart';
 
 
 ///Flutter lib

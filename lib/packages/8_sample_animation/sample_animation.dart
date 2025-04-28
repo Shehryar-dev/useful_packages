@@ -1,5 +1,6 @@
-import 'package:flutter/material.dart';
-import 'package:simple_animations/simple_animations.dart';
+
+
+import '../../constants/screen_paths.dart';
 
 class SimpleAnimationsExample extends StatelessWidget {
   const SimpleAnimationsExample({super.key});
@@ -7,14 +8,17 @@ class SimpleAnimationsExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final tween = MovieTween()
-      ..tween('color', ColorTween(begin: Colors.blue, end: Colors.purple), duration: const Duration(seconds: 2))
-      ..tween('size', Tween<double>(begin: 100, end: 200), duration: const Duration(seconds: 2));
+      ..tween('color', ColorTween(begin: Colors.blue, end: Colors.blue.shade900), duration: const Duration(seconds: 2))
+      ..tween('size', Tween<double>(begin: 120, end: 240), duration: const Duration(seconds: 2));
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Simple Animations Example'),
+        iconTheme: IconThemeData(
+          color: Colors.white
+        ),
+        title: const Text('Simple Animations Example',style: TextStyle(color: Colors.white),),
         centerTitle: true,
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: Colors.indigo.shade900,
       ),
       body: Center(
         child: PlayAnimationBuilder<Movie>(
