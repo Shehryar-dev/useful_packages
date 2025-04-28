@@ -16,7 +16,7 @@ class FeedbackExampleScreen extends StatelessWidget {
         builder: (context) => Scaffold(
           appBar: AppBar(
             iconTheme: IconThemeData(color: Colors.white),
-            title: const Text('Feedback Package Example',style: TextStyle(color: Colors.white),),
+            title:  Text('Feedback Package Example',style: Theme.of(context).textTheme.titleMedium!.apply(color: Colors.white),),
             backgroundColor: Colors.indigo.shade900,
           ),
           body: Center(

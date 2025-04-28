@@ -16,7 +16,7 @@ class _RatingBarExampleState extends State<RatingBarExample> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Rating Bar Example', style: TextStyle(color: Colors.white),),
+        title:  Text('Rating Bar Example', style: Theme.of(context).textTheme.titleMedium!.apply(color: Colors.white),),
         centerTitle: true,
         iconTheme: IconThemeData(color: Colors.white),
         backgroundColor: Colors.indigo.shade900,

@@ -16,7 +16,7 @@ class SimpleAnimationsExample extends StatelessWidget {
         iconTheme: IconThemeData(
           color: Colors.white
         ),
-        title: const Text('Simple Animations Example',style: TextStyle(color: Colors.white),),
+        title:  Text('Simple Animations Example',style:Theme.of(context).textTheme.titleMedium!.apply(color: Colors.white),),
         centerTitle: true,
         backgroundColor: Colors.indigo.shade900,
       ),

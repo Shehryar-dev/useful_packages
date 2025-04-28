@@ -7,7 +7,7 @@ class AnimateDoExample extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Animate Do Example', style: TextStyle(color: Colors.white),),
+        title:  Text('Animate Do Example', style: Theme.of(context).textTheme.titleMedium!.apply(color: Colors.white),),
         centerTitle: true,
         iconTheme: IconThemeData(color: Colors.white),
         backgroundColor: Colors.purple.shade900,

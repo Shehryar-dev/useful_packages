@@ -15,7 +15,7 @@ class _AnimatedListExampleState extends State<AnimatedListExample> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Animated List Example', style: TextStyle(color: Colors.white),),
+        title:  Text('Animated List Example', style:Theme.of(context).textTheme.titleMedium!.apply(color: Colors.white),),
         centerTitle: true,
         iconTheme: IconThemeData(color: Colors.white),
         backgroundColor: Colors.indigo.shade900,
