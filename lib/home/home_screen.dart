@@ -1,7 +1,6 @@
 
 
 import '../constants/screen_paths.dart';
-import '../packages/8_sample_animation/sample_animation.dart';
 
 class UsefulPackageHomeScreen extends StatelessWidget {
   const UsefulPackageHomeScreen({super.key});

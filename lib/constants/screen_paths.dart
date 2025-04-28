@@ -8,7 +8,7 @@ export 'package:useful_packages/packages/4_shimmer_package/shimmer_effect.dart';
 export 'package:useful_packages/packages/5_flutter_rating_bar/flutter_rating_bar.dart';
 export 'package:useful_packages/packages/6_animated_list_plus/animated_list_plus.dart';
 export 'package:useful_packages/packages/7_animated_do/animated_do_package.dart';
-
+export '../packages/8_sample_animation/sample_animation.dart';
 
 
 ///Widgets
