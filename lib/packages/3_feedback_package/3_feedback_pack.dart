@@ -27,8 +27,8 @@ class FeedbackExampleScreen extends StatelessWidget {
                   debugPrint('Screenshot: ${feedback.screenshot.length} bytes');
                 });
               },
-              icon: const Icon(Icons.feedback_outlined),
-              label: const Text('Send Feedback'),
+              icon: const Icon(Icons.feedback_outlined, color: Colors.white,),
+              label: const Text('Send Feedback', style: TextStyle(color: Colors.white),),
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.indigo.shade900,
                 padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 14),
