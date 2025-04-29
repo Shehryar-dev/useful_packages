@@ -23,6 +23,7 @@ This initiative helps me understand third-party tools better, improve integratio
 - [x] **animated_list_plus** (Added on: *April 26, 2025*) – *Add/remove items with smooth list animations*
 - [x] **animate_do** (Added on: *April 27, 2025*) – *Add beautiful pre-built animations like bounce, fade, slide easily*
 - [x] **simple_animations** (Added on: *April 28, 2025*) – *Create custom and controlled animations easily*
+- [x] **flutter_staggered_animations** – *Scroll-based list animations (slide, fade)*
 - [ ] Upcoming packages (Stay tuned...)
 
 ---
