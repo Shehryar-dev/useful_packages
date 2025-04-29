@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
+
+import '../../constants/screen_paths.dart';
 
 class FlutterStaggeredAnimationsExample extends StatelessWidget {
   const FlutterStaggeredAnimationsExample({super.key});
@@ -10,9 +10,10 @@ class FlutterStaggeredAnimationsExample extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Staggered List Animation'),
-        backgroundColor: Colors.teal,
+        title:  Text('Staggered List Animation', style: Theme.of(context).textTheme.titleMedium!.apply(color: Colors.white),),
+        backgroundColor: Colors.indigo.shade900,
         centerTitle: true,
+        iconTheme: IconThemeData(color: Colors.white),
       ),
       body: AnimationLimiter(
         child: ListView.builder(
@@ -30,7 +31,7 @@ class FlutterStaggeredAnimationsExample extends StatelessWidget {
                     margin: const EdgeInsets.symmetric(vertical: 8),
                     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
                     child: ListTile(
-                      leading: const Icon(Icons.animation, color: Colors.teal),
+                      leading:  Icon(Icons.animation, color: Colors.indigo[900]),
                       title: Text(items[index]),
                     ),
                   ),

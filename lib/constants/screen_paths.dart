@@ -9,6 +9,7 @@ export 'package:useful_packages/packages/5_flutter_rating_bar/flutter_rating_bar
 export 'package:useful_packages/packages/6_animated_list_plus/animated_list_plus.dart';
 export 'package:useful_packages/packages/7_animated_do/animated_do_package.dart';
 export '../packages/8_sample_animation/sample_animation.dart';
+export 'package:useful_packages/packages/9_flutter_staggered_animations/staggered_animations.dart';
 
 
 ///Widgets
@@ -30,6 +31,7 @@ export 'package:animated_list_plus/animated_list_plus.dart';
 export 'package:animated_list_plus/transitions.dart';
 export 'package:animate_do/animate_do.dart';
 export 'package:simple_animations/simple_animations.dart';
+export 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
 
 
 ///Flutter lib

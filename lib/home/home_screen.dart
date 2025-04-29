@@ -1,6 +1,5 @@
 
 
-import 'package:useful_packages/packages/9_flutter_staggered_animations/staggered_animations.dart';
 
 import '../constants/screen_paths.dart';
 
