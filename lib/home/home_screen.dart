@@ -1,5 +1,7 @@
 
 
+import 'package:useful_packages/packages/9_flutter_staggered_animations/staggered_animations.dart';
+
 import '../constants/screen_paths.dart';
 
 class UsefulPackageHomeScreen extends StatelessWidget {
@@ -56,6 +58,13 @@ class UsefulPackageHomeScreen extends StatelessWidget {
         subtitle: 'Create custom and multi-property animations easily',
         icon: Icons.animation_outlined,
         destination: const SimpleAnimationsExample(),
+      ),
+
+      _PackageItem(
+        title: 'flutter_staggered_animations',
+        subtitle: 'Scroll-based list animations (slide, fade)',
+        icon: Icons.view_agenda,
+        destination: const FlutterStaggeredAnimationsExample(),
       ),
 
 
