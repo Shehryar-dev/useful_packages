@@ -1,7 +1,6 @@
 
 
 
-import 'package:useful_packages/packages/10_flutter_animated/flutter_animated.dart';
 
 import '../constants/screen_paths.dart';
 
