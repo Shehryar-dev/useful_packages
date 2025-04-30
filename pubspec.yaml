@@ -44,6 +44,7 @@ dependencies:
   animate_do: ^4.2.0
   simple_animations: ^5.1.0
   flutter_staggered_animations: ^1.1.1
+  flutter_animate: ^4.5.2
 
 
 dev_dependencies:
