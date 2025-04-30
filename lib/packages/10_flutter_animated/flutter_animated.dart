@@ -8,26 +8,28 @@ class FlutterAnimateExample extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Flutter Animate Example'),
-        backgroundColor: Colors.teal,
+        title: Text('Flutter Animate Example', style: TextStyle(color: Colors.white, fontSize: 16),),
+        backgroundColor: Colors.indigo.shade900,
+        iconTheme: IconThemeData(color: Colors.white),
         centerTitle: true,
       ),
       body: Center(
         child: Container(
           width: 200,
           height: 200,
-          color: Colors.tealAccent,
+          color: Colors.indigoAccent.shade700,
           child: const Center(
             child: Text(
               'Animate Me!',
-              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+              style: TextStyle(color: Colors.white, fontSize: 24, fontWeight: FontWeight.bold),
             ),
           ),
         )
             .animate()
             .fadeIn(duration: 500.ms)
-            .scale(begin: Offset(0, 1), end: Offset.zero, duration: 500.ms)
-            .slide(begin: const Offset(0, 1), end: Offset.zero, duration: 500.ms),
+            .scale(begin: Offset(0.2, 0.5), end: Offset(0.6, 1.0), duration: 500.ms)
+            .slide(begin: const Offset(0, 1), end: Offset.zero, duration: 500.ms)
+
       ),
     );
   }
