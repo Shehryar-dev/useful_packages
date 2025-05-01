@@ -24,7 +24,8 @@ This initiative helps me understand third-party tools better, improve integratio
 - [x] **animate_do** (Added on: *April 27, 2025*) – *Add beautiful pre-built animations like bounce, fade, slide easily*
 - [x] **simple_animations** (Added on: *April 28, 2025*) – *Create custom and controlled animations easily*
 - [x] **flutter_staggered_animations** (Added on: *April 29, 2025*) – *Scroll-based list animations (slide, fade)*
-- [x] **flutter_animate** – *Simplified animations with a unified API*
+- [x] **flutter_animate** – (Added on: *April 30, 2025*) *Simplified animations with a unified API*
+- [x] **flutter_animation_plus** – (Added on: *May 1, 2025*) *Over 15 dynamic animation widgets*
 - [ ] Upcoming packages (Stay tuned...)
 
 ---

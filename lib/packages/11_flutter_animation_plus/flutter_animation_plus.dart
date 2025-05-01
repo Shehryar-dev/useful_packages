@@ -8,8 +8,9 @@ class FlutterAnimationPlusExample extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Flutter Animation Plus Example'),
-        backgroundColor: Colors.deepPurple,
+        title: const Text('Flutter Animation Plus Example',style: TextStyle(color: Colors.white, fontSize: 16),),
+        backgroundColor: Colors.indigo.shade900,
+        iconTheme: IconThemeData(color: Colors.white),
         centerTitle: true,
       ),
       body: Center(

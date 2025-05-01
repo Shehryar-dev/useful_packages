@@ -2,6 +2,8 @@
 
 
 
+import 'package:useful_packages/packages/11_flutter_animation_plus/flutter_animation_plus.dart';
+
 import '../constants/screen_paths.dart';
 
 class UsefulPackageHomeScreen extends StatelessWidget {
@@ -73,8 +75,12 @@ class UsefulPackageHomeScreen extends StatelessWidget {
         icon: Icons.animation,
         destination: const FlutterAnimateExample(),
       ),
-
-
+      _PackageItem(
+        title: 'flutter_animation_plus',
+        subtitle: 'Over 15 dynamic animation widgets',
+        icon: Icons.auto_awesome,
+        destination: const FlutterAnimationPlusExample(),
+      ),
 
       // Future package screens can be added here
     ];
