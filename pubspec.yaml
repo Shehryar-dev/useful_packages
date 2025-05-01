@@ -45,6 +45,7 @@ dependencies:
   simple_animations: ^5.1.0
   flutter_staggered_animations: ^1.1.1
   flutter_animate: ^4.5.2
+  flutter_animation_plus: ^0.0.7
 
 
 dev_dependencies:

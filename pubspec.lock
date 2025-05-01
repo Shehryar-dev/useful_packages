@@ -134,6 +134,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.5.2"
+  flutter_animation_plus:
+    dependency: "direct main"
+    description:
+      name: flutter_animation_plus
+      sha256: "3150c2b3f116270d3794f979c269689bcefc1c4d6a4bd13245c68d751f385e0b"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.7"
   flutter_lints:
     dependency: "direct dev"
     description:
