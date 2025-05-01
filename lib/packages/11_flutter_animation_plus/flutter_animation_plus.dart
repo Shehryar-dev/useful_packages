@@ -21,7 +21,10 @@ class FlutterAnimationPlusExample extends StatelessWidget {
             width: 150,
             height: 150,
             decoration: BoxDecoration(
-              color: Colors.deepPurpleAccent,
+              gradient: LinearGradient(colors: [
+                Colors.deepPurpleAccent,
+                Colors.purple
+              ]),
               borderRadius: BorderRadius.circular(75),
             ),
             child: const Center(
