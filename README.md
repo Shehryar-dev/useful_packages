@@ -26,6 +26,7 @@ This initiative helps me understand third-party tools better, improve integratio
 - [x] **flutter_staggered_animations** (Added on: *April 29, 2025*) – *Scroll-based list animations (slide, fade)*
 - [x] **flutter_animate** – (Added on: *April 30, 2025*) *Simplified animations with a unified API*
 - [x] **flutter_animation_plus** – (Added on: *May 1, 2025*) *Over 15 dynamic animation widgets*
+- [x] **chart_it** – (Added on: *May 2, 2025*) *Customizable charts with seamless animations*
 - [ ] Upcoming packages (Stay tuned...)
 
 ---
