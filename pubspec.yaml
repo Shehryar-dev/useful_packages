@@ -46,6 +46,7 @@ dependencies:
   flutter_staggered_animations: ^1.1.1
   flutter_animate: ^4.5.2
   flutter_animation_plus: ^0.0.7
+  chart_it: ^0.2.2
 
 
 dev_dependencies:
