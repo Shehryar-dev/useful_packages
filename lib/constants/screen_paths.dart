@@ -34,6 +34,9 @@ export 'package:animated_list_plus/transitions.dart';
 export 'package:animate_do/animate_do.dart';
 export 'package:simple_animations/simple_animations.dart';
 export 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
+export 'package:flutter_animate/flutter_animate.dart';
+export 'package:chart_it/chart_it.dart';
+
 
 
 ///Flutter lib

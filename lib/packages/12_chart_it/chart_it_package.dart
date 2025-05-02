@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:chart_it/chart_it.dart';
+
+import '../../constants/screen_paths.dart';
 
 class ChartItExample extends StatelessWidget {
   const ChartItExample({super.key});
