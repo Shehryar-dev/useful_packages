@@ -8,9 +8,10 @@ class ChartItExample extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Chart It Example'),
-        backgroundColor: Colors.deepPurple,
+        title: const Text('Chart It Example', style: TextStyle(color: Colors.white, fontSize: 16),),
+        backgroundColor: Colors.indigo.shade900,
         centerTitle: true,
+        iconTheme: IconThemeData(color: Colors.white),
       ),
       body: Center(
         child: PieChart(
