@@ -2,9 +2,6 @@
 
 
 
-import 'package:useful_packages/packages/11_flutter_animation_plus/flutter_animation_plus.dart';
-import 'package:useful_packages/packages/12_chart_it/chart_it_package.dart';
-
 import '../constants/screen_paths.dart';
 
 class UsefulPackageHomeScreen extends StatelessWidget {

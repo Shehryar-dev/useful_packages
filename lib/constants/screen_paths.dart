@@ -11,7 +11,8 @@ export 'package:useful_packages/packages/7_animated_do/animated_do_package.dart'
 export '../packages/8_sample_animation/sample_animation.dart';
 export 'package:useful_packages/packages/9_flutter_staggered_animations/staggered_animations.dart';
 export 'package:useful_packages/packages/10_flutter_animated/flutter_animated.dart';
-
+export 'package:useful_packages/packages/11_flutter_animation_plus/flutter_animation_plus.dart';
+export 'package:useful_packages/packages/12_chart_it/chart_it_package.dart';
 
 ///Widgets
 
