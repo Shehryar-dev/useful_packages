@@ -3,6 +3,7 @@
 
 
 import 'package:useful_packages/packages/11_flutter_animation_plus/flutter_animation_plus.dart';
+import 'package:useful_packages/packages/12_chart_it/chart_it_package.dart';
 
 import '../constants/screen_paths.dart';
 
@@ -81,6 +82,13 @@ class UsefulPackageHomeScreen extends StatelessWidget {
         icon: Icons.auto_awesome,
         destination: const FlutterAnimationPlusExample(),
       ),
+      _PackageItem(
+        title: 'chart_it',
+        subtitle: 'Customizable charts with seamless animations',
+        icon: Icons.pie_chart,
+        destination: const ChartItExample(),
+      ),
+
 
       // Future package screens can be added here
     ];
