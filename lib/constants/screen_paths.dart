@@ -13,6 +13,7 @@ export 'package:useful_packages/packages/9_flutter_staggered_animations/staggere
 export 'package:useful_packages/packages/10_flutter_animated/flutter_animated.dart';
 export 'package:useful_packages/packages/11_flutter_animation_plus/flutter_animation_plus.dart';
 export 'package:useful_packages/packages/12_chart_it/chart_it_package.dart';
+export 'package:useful_packages/packages/13_syncfusion_flutter_charts/syncfusion_flutter_charts.dart';
 
 ///Widgets
 

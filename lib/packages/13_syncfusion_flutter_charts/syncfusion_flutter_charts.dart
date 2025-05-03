@@ -1,4 +1,5 @@
-import 'package:flutter/material.dart';
+
+import '../../constants/screen_paths.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 
 class SalesData {
@@ -22,7 +23,9 @@ class SyncfusionChartItem extends StatelessWidget {
     ];
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Syncfusion Chart Example', style: TextStyle(color: Colors.white, fontSize: 16),),backgroundColor: Colors.indigo.shade900, ),
+      appBar: AppBar(title: const Text('Syncfusion Chart Example', style: TextStyle(color: Colors.white, fontSize: 16),),
+        iconTheme: IconThemeData(color: Colors.white),
+        backgroundColor: Colors.indigo.shade900, ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: SfCartesianChart(

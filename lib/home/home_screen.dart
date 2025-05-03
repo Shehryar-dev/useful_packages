@@ -2,7 +2,6 @@
 
 
 
-import 'package:useful_packages/packages/13_syncfusion_flutter_charts/syncfusion_flutter_charts.dart';
 
 import '../constants/screen_paths.dart';
 
