@@ -2,6 +2,8 @@
 
 
 
+import 'package:useful_packages/packages/13_syncfusion_flutter_charts/syncfusion_flutter_charts.dart';
+
 import '../constants/screen_paths.dart';
 
 class UsefulPackageHomeScreen extends StatelessWidget {
@@ -80,10 +82,10 @@ class UsefulPackageHomeScreen extends StatelessWidget {
         destination: const FlutterAnimationPlusExample(),
       ),
       _PackageItem(
-        title: 'chart_it',
-        subtitle: 'Customizable charts with seamless animations',
-        icon: Icons.pie_chart,
-        destination: const ChartItExample(),
+        title: 'syncfusion_flutter_charts',
+        subtitle: 'Professional-grade charts with zoom, tooltip, animations',
+        icon: Icons.show_chart,
+        destination: const SyncfusionChartItem(),
       ),
 
 

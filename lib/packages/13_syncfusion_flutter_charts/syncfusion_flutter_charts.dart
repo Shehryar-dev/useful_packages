@@ -22,7 +22,7 @@ class SyncfusionChartItem extends StatelessWidget {
     ];
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Syncfusion Chart Example')),
+      appBar: AppBar(title: const Text('Syncfusion Chart Example', style: TextStyle(color: Colors.white, fontSize: 16),),backgroundColor: Colors.indigo.shade900, ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: SfCartesianChart(
