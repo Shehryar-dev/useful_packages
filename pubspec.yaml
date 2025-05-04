@@ -48,6 +48,7 @@ dependencies:
   flutter_animation_plus: ^0.0.7
   chart_it: ^0.2.2
   syncfusion_flutter_charts: ^29.1.40
+  fl_chart: ^0.71.0
 
 
 dev_dependencies:
