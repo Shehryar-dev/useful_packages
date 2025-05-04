@@ -28,6 +28,7 @@ This initiative helps me understand third-party tools better, improve integratio
 - [x] **flutter_animation_plus** – (Added on: *May 1, 2025*) *Over 15 dynamic animation widgets*
 - [x] **chart_it** – (Added on: *May 2, 2025*) *Customizable charts with seamless animations*
 - [x] **syncfusion_flutter_charts** – *Professional-grade charts with zoom, tooltip, animations*
+- [x] **fl_chart** – *Beautiful charts with custom animations & smooth UI*
 - [ ] Upcoming packages (Stay tuned...)
 
 ---
