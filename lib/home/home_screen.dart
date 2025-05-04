@@ -3,6 +3,8 @@
 
 
 
+import 'package:useful_packages/packages/14_fl_chart/fl_chart.dart';
+
 import '../constants/screen_paths.dart';
 
 class UsefulPackageHomeScreen extends StatelessWidget {
@@ -86,6 +88,13 @@ class UsefulPackageHomeScreen extends StatelessWidget {
         icon: Icons.show_chart,
         destination: const SyncfusionChartItem(),
       ),
+      _PackageItem(
+        title: 'fl_chart',
+        subtitle: 'Beautiful charts with custom animations & smooth UI',
+        icon: Icons.bar_chart,
+        destination: const FLChartExample(),
+      ),
+
 
 
       // Future package screens can be added here

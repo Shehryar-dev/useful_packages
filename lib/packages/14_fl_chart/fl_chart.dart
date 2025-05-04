@@ -9,7 +9,8 @@ class FLChartExample extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color(0xFF0D1117),
       appBar: AppBar(
-        title: const Text('Weekly Spending'),
+        iconTheme: IconThemeData(color: Colors.white),
+        title: const Text('Weekly Spending',style: TextStyle(color: Colors.white, fontSize: 16),),
         backgroundColor: const Color(0xFF161B22),
       ),
       body: Padding(
