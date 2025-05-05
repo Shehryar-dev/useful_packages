@@ -3,8 +3,6 @@
 
 
 
-import 'package:useful_packages/packages/14_fl_chart/fl_chart.dart';
-import 'package:useful_packages/packages/14_rive/rive_animation.dart';
 
 import '../constants/screen_paths.dart';
 
