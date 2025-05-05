@@ -97,9 +97,9 @@ class UsefulPackageHomeScreen extends StatelessWidget {
       ),
       _PackageItem(
         title: 'rive',
-        subtitle: 'Real-time interactive vector animations',
-        icon: Icons.animation,
-        destination: const RiveRocketExample(),
+        subtitle: 'Interactive animation: Bubble Gum Boy',
+        icon: Icons.animation_rounded,
+        destination: const BubbleGumBoyExample(),
       ),
 
 
