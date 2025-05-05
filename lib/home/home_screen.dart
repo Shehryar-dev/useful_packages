@@ -4,6 +4,7 @@
 
 
 import 'package:useful_packages/packages/14_fl_chart/fl_chart.dart';
+import 'package:useful_packages/packages/14_rive/rive_animation.dart';
 
 import '../constants/screen_paths.dart';
 
@@ -94,6 +95,13 @@ class UsefulPackageHomeScreen extends StatelessWidget {
         icon: Icons.bar_chart,
         destination: const FLChartExample(),
       ),
+      _PackageItem(
+        title: 'rive',
+        subtitle: 'Real-time interactive vector animations',
+        icon: Icons.animation,
+        destination: const RiveRocketExample(),
+      ),
+
 
 
 
