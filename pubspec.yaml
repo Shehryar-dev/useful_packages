@@ -49,6 +49,7 @@ dependencies:
   chart_it: ^0.2.2
   syncfusion_flutter_charts: ^29.1.40
   fl_chart: ^0.71.0
+  rive: ^0.13.20
 
 
 dev_dependencies:
