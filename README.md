@@ -27,8 +27,9 @@ This initiative helps me understand third-party tools better, improve integratio
 - [x] **flutter_animate** – (Added on: *April 30, 2025*) *Simplified animations with a unified API*
 - [x] **flutter_animation_plus** – (Added on: *May 1, 2025*) *Over 15 dynamic animation widgets*
 - [x] **chart_it** – (Added on: *May 2, 2025*) *Customizable charts with seamless animations*
-- [x] **syncfusion_flutter_charts** – *Professional-grade charts with zoom, tooltip, animations*
-- [x] **fl_chart** – *Beautiful charts with custom animations & smooth UI*
+- [x] **syncfusion_flutter_charts** – (Added on: *May 3, 2025*) *Professional-grade charts with zoom, tooltip, animations*
+- [x] **fl_chart** – (Added on: *May 4, 2025*) *Beautiful charts with custom animations & smooth UI*
+- [x] **rive** – (Added on: *May 5, 2025*) *Interactive vector animation with real-time gesture movement (Bubble Gum Boy)*
 - [ ] Upcoming packages (Stay tuned...)
 
 ---
