@@ -30,6 +30,7 @@ This initiative helps me understand third-party tools better, improve integratio
 - [x] **syncfusion_flutter_charts** – (Added on: *May 3, 2025*) *Professional-grade charts with zoom, tooltip, animations*
 - [x] **fl_chart** – (Added on: *May 4, 2025*) *Beautiful charts with custom animations & smooth UI*
 - [x] **rive** – (Added on: *May 5, 2025*) *Interactive vector animation with real-time gesture movement (Bubble Gum Boy)*
+- [x] **device_info_plus** – (Added on: *May 6, 2025*) *Detects platform, device name, brand, OS version, and hardware info (Android/iOS)*
 - [ ] Upcoming packages (Stay tuned...)
 
 ---
