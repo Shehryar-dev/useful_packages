@@ -15,7 +15,7 @@ export 'package:useful_packages/packages/11_flutter_animation_plus/flutter_anima
 export 'package:useful_packages/packages/12_chart_it/chart_it_package.dart';
 export 'package:useful_packages/packages/13_syncfusion_flutter_charts/syncfusion_flutter_charts.dart';
 export 'package:useful_packages/packages/14_fl_chart/fl_chart.dart';
-export 'package:useful_packages/packages/14_rive/rive_animation.dart';
+export 'package:useful_packages/packages/15_rive/rive_animation.dart';
 
 ///Widgets
 

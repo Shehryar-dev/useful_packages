@@ -4,6 +4,8 @@
 
 
 
+import 'package:useful_packages/packages/16_device_info_plus/device_info_plus.dart';
+
 import '../constants/screen_paths.dart';
 
 class UsefulPackageHomeScreen extends StatelessWidget {
@@ -99,6 +101,13 @@ class UsefulPackageHomeScreen extends StatelessWidget {
         icon: Icons.animation_rounded,
         destination: const BubbleGumBoyExample(),
       ),
+      _PackageItem(
+        title: 'device_info_plus',
+        subtitle: 'Fetch device model, OS version & more',
+        icon: Icons.info_outline_rounded,
+        destination: const DeviceInfoScreen(),
+      ),
+
 
 
 
