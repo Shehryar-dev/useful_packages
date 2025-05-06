@@ -4,8 +4,6 @@
 
 
 
-import 'package:useful_packages/packages/16_device_info_plus/device_info_plus.dart';
-
 import '../constants/screen_paths.dart';
 
 class UsefulPackageHomeScreen extends StatelessWidget {
