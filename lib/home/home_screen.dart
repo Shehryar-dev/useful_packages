@@ -4,6 +4,7 @@
 
 
 
+
 import '../constants/screen_paths.dart';
 
 class UsefulPackageHomeScreen extends StatelessWidget {
@@ -105,6 +106,14 @@ class UsefulPackageHomeScreen extends StatelessWidget {
         icon: Icons.info_outline_rounded,
         destination: const DeviceInfoScreen(),
       ),
+
+      _PackageItem(
+        title: 'url_launcher',
+        subtitle: 'Launch URLs, email, phone, SMS from your app',
+        icon: Icons.open_in_browser,
+        destination: const UrlLauncherExample(),
+      ),
+
 
 
 
