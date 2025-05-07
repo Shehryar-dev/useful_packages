@@ -7,7 +7,9 @@ class UrlLauncherExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('📦 url_launcher Example')),
+      appBar: AppBar(title: const Text('📦 url_launcher Example', style: TextStyle(fontSize: 16, color: Colors.white),),
+        iconTheme: IconThemeData(color: Colors.white),
+        backgroundColor: Colors.indigo.shade900,),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
