@@ -31,7 +31,7 @@ This initiative helps me understand third-party tools better, improve integratio
 - [x] **fl_chart** – (Added on: *May 4, 2025*) *Beautiful charts with custom animations & smooth UI*
 - [x] **rive** – (Added on: *May 5, 2025*) *Interactive vector animation with real-time gesture movement (Bubble Gum Boy)*
 - [x] **device_info_plus** – (Added on: *May 6, 2025*) *Detects platform, device name, brand, OS version, and hardware info (Android/iOS)*
-- [x] **url_launcher** – *Launch URLs, email, phone, SMS from your app*
+- [x] **url_launcher** – (Added on: *May 7, 2025*) *Launch URLs, email, phone, SMS from your app*
 - [ ] Upcoming packages (Stay tuned...)
 
 ---
