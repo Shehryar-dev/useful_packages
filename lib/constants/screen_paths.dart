@@ -17,6 +17,7 @@ export 'package:useful_packages/packages/13_syncfusion_flutter_charts/syncfusion
 export 'package:useful_packages/packages/14_fl_chart/fl_chart.dart';
 export 'package:useful_packages/packages/15_rive/rive_animation.dart';
 export 'package:useful_packages/packages/16_device_info_plus/device_info_plus.dart';
+export 'package:useful_packages/packages/17_url_launcher/url_launcher.dart';
 
 
 ///Widgets
