@@ -18,6 +18,9 @@ export 'package:useful_packages/packages/14_fl_chart/fl_chart.dart';
 export 'package:useful_packages/packages/15_rive/rive_animation.dart';
 export 'package:useful_packages/packages/16_device_info_plus/device_info_plus.dart';
 export 'package:useful_packages/packages/17_url_launcher/url_launcher.dart';
+export 'package:useful_packages/packages/18_go_router/go_router.dart';
+export 'package:useful_packages/packages/18_go_router/go_router_about.dart';
+export 'package:useful_packages/packages/18_go_router/go_router_home.dart';
 
 
 ///Widgets
@@ -42,6 +45,7 @@ export 'package:simple_animations/simple_animations.dart';
 export 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
 export 'package:flutter_animate/flutter_animate.dart';
 export 'package:chart_it/chart_it.dart';
+export 'package:go_router/go_router.dart';
 
 
 

@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
+
+import '../../constants/screen_paths.dart';
 
 class GoAboutPage extends StatelessWidget {
   const GoAboutPage({super.key});
@@ -7,7 +7,7 @@ class GoAboutPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('ℹ️ About',style: TextStyle(color: Colors.white),),backgroundColor: Colors.indigo.shade900,),
+      appBar: AppBar(title: const Text('ℹ️ About',style: TextStyle(color: Colors.white, fontSize: 16),),backgroundColor: Colors.indigo.shade900,),
       body: Center(
         child: ElevatedButton.icon(
           onPressed: () => context.go('/'),
