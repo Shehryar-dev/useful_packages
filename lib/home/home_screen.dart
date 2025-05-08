@@ -113,9 +113,12 @@ class UsefulPackageHomeScreen extends StatelessWidget {
         icon: Icons.open_in_browser,
         destination: const UrlLauncherExample(),
       ),
-
-
-
+      _PackageItem(
+        title: 'go_router',
+        subtitle: 'Declarative navigation for Flutter with web & nested route support',
+        icon: Icons.route,
+        destination: const GoRouterExample(), // Your example page
+      ),
 
 
 
