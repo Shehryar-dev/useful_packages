@@ -5,6 +5,8 @@
 
 
 
+import 'package:useful_packages/packages/18_go_router/go_router.dart';
+
 import '../constants/screen_paths.dart';
 
 class UsefulPackageHomeScreen extends StatelessWidget {
@@ -117,8 +119,9 @@ class UsefulPackageHomeScreen extends StatelessWidget {
         title: 'go_router',
         subtitle: 'Declarative navigation for Flutter with web & nested route support',
         icon: Icons.route,
-        destination: const GoRouterExample(), // Your example page
+        destination: GoRouterExample(),
       ),
+
 
 
 
