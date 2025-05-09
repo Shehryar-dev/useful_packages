@@ -6,6 +6,8 @@
 
 
 
+import 'package:useful_packages/packages/19_icon_launcher/icon_launcher.dart';
+
 import '../constants/screen_paths.dart';
 
 class UsefulPackageHomeScreen extends StatelessWidget {
@@ -120,6 +122,15 @@ class UsefulPackageHomeScreen extends StatelessWidget {
         icon: Icons.route,
         destination: GoRouterExample(),
       ),
+
+
+      _PackageItem(
+        title: 'flutter_launcher_icons',
+        subtitle: 'Generate app launcher icons for Android & iOS',
+        icon: Icons.app_shortcut_rounded,
+        destination: const LauncherIconInfo(),
+      ),
+
 
 
 
