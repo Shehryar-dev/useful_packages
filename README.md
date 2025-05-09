@@ -33,7 +33,7 @@ This initiative helps me understand third-party tools better, improve integratio
 - [x] **device_info_plus** – (Added on: *May 6, 2025*) *Detects platform, device name, brand, OS version, and hardware info (Android/iOS)*
 - [x] **url_launcher** – (Added on: *May 7, 2025*) *Launch URLs, email, phone, SMS from your app*
 - [x] **go_router** – (Added on: *May 8, 2025*) *Declarative routing made easy for Flutter apps (mobile & web)*
-- [x] **flutter_launcher_icons** – *Easily generate launcher icons for Android/iOS*
+- [x] **flutter_launcher_icons** – (Added on: *May 9, 2025*) *Easily generate launcher icons for Android/iOS*
 - [ ] Upcoming packages (Stay tuned...)
 
 ---
