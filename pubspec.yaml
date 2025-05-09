@@ -86,6 +86,7 @@ flutter:
 
   assets:
     - assets/rive/boy.riv
+    - assets/icons/icon.png
 
   
   
