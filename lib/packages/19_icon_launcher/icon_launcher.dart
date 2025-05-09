@@ -21,7 +21,7 @@ class LauncherIconInfo extends StatelessWidget {
             ClipRRect(
               borderRadius: BorderRadius.circular(16),
               child: Image.asset(
-                'assets/icons/app_icon.png',
+                'assets/icons/icon.png',
                 width: 120,
                 height: 120,
               ),
