@@ -34,6 +34,7 @@ This initiative helps me understand third-party tools better, improve integratio
 - [x] **url_launcher** – (Added on: *May 7, 2025*) *Launch URLs, email, phone, SMS from your app*
 - [x] **go_router** – (Added on: *May 8, 2025*) *Declarative routing made easy for Flutter apps (mobile & web)*
 - [x] **flutter_launcher_icons** – (Added on: *May 9, 2025*) *Easily generate launcher icons for Android/iOS*
+- [x] **connectivity_plus** – (Added on: *May 10, 2025*) *Detect WiFi, mobile data, or no internet and react in real-time.*
 - [ ] Upcoming packages (Stay tuned...)
 
 ---
