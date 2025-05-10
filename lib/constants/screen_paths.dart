@@ -22,6 +22,7 @@ export 'package:useful_packages/packages/18_go_router/go_router.dart';
 export 'package:useful_packages/packages/18_go_router/go_router_about.dart';
 export 'package:useful_packages/packages/18_go_router/go_router_home.dart';
 export 'package:useful_packages/packages/19_icon_launcher/icon_launcher.dart';
+export 'package:useful_packages/packages/20_connectivity_plus/connectivity_plus.dart';
 
 
 ///Widgets
