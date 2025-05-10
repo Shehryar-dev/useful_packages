@@ -129,6 +129,13 @@ class UsefulPackageHomeScreen extends StatelessWidget {
         icon: Icons.app_shortcut_rounded,
         destination: const LauncherIconInfo(),
       ),
+      _PackageItem(
+        title: 'connectivity_plus',
+        subtitle: 'Check internet status in real-time with this plugin',
+        icon: Icons.wifi,
+        destination: const ConnectivityExample(),
+      ),
+
 
 
 
