@@ -1,3 +1,5 @@
+import 'package:useful_packages/packages/21_flutter_secure_storage/flutter_sec_storage.dart';
+
 import '../constants/screen_paths.dart';
 
 class UsefulPackageHomeScreen extends StatelessWidget {
@@ -127,6 +129,12 @@ class UsefulPackageHomeScreen extends StatelessWidget {
         destination: const ConnectivityExample(),
       ),
 
+      _PackageItem(
+        title: 'flutter_secure_storage',
+        subtitle: 'Securely store key-value pairs using platform-specific storage',
+        icon: Icons.lock,
+        destination: const SecureStorageExample(),
+      ),
 
 
 
