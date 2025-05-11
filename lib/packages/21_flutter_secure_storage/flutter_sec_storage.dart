@@ -36,7 +36,7 @@ class _SecureStorageExampleState extends State<SecureStorageExample> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('🔐 Secure Storage Example')),
+      appBar: AppBar(title: const Text('🔐 Secure Storage Example', style: TextStyle(color: Colors.white, fontSize: 16),), backgroundColor: Colors.indigo.shade900,iconTheme: IconThemeData(color: Colors.white),),
       body: Padding(
         padding: const EdgeInsets.all(20.0),
         child: Column(
