@@ -55,6 +55,7 @@ dependencies:
   go_router: ^15.1.1
   flutter_launcher_icons: ^0.14.3
   connectivity_plus: ^6.1.4
+  flutter_secure_storage: ^9.2.4
 
 
 dev_dependencies:
