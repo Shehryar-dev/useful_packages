@@ -1,4 +1,3 @@
-import 'package:useful_packages/packages/21_flutter_secure_storage/flutter_sec_storage.dart';
 
 import '../constants/screen_paths.dart';
 

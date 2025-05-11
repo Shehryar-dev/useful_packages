@@ -23,6 +23,7 @@ export 'package:useful_packages/packages/18_go_router/go_router_about.dart';
 export 'package:useful_packages/packages/18_go_router/go_router_home.dart';
 export 'package:useful_packages/packages/19_icon_launcher/icon_launcher.dart';
 export 'package:useful_packages/packages/20_connectivity_plus/connectivity_plus.dart';
+export 'package:useful_packages/packages/21_flutter_secure_storage/flutter_sec_storage.dart';
 
 
 ///Widgets
