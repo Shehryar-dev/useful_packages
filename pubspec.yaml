@@ -90,6 +90,7 @@ flutter:
   assets:
     - assets/rive/boy.riv
     - assets/icons/icon.png
+    - assets/lottie/pencil_draw.json
 
   
   
