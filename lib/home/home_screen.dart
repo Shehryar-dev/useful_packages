@@ -1,4 +1,6 @@
 
+import 'package:useful_packages/packages/22_lottie/lottie_package.dart';
+
 import '../constants/screen_paths.dart';
 
 class UsefulPackageHomeScreen extends StatelessWidget {
@@ -135,6 +137,12 @@ class UsefulPackageHomeScreen extends StatelessWidget {
         destination: const SecureStorageExample(),
       ),
 
+      _PackageItem(
+        title: 'lottie',
+        subtitle: 'Render high-quality vector animations using JSON',
+        icon: Icons.animation,
+        destination: const LottieExample(),
+      ),
 
 
 
