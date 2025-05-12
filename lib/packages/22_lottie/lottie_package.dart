@@ -11,6 +11,7 @@ class LottieExample extends StatelessWidget {
       appBar: AppBar(
         title: const Text('🎨 Lottie Animation',style: TextStyle(color: Colors.white, fontSize: 16),),
         backgroundColor: Colors.deepPurple,
+        iconTheme: IconThemeData(color: Colors.white),
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
