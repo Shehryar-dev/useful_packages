@@ -9,14 +9,14 @@ class LottieExample extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.deepPurple.shade50,
       appBar: AppBar(
-        title: const Text('🎨 Lottie Animation'),
+        title: const Text('🎨 Lottie Animation',style: TextStyle(color: Colors.white, fontSize: 16),),
         backgroundColor: Colors.deepPurple,
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Lottie.asset(
-            'assets/lottie/rocket.json', // Add this file in your assets
+            'assets/lottie/pencil_draw.json', // Add this file in your assets
             height: 250,
             repeat: true,
             reverse: false,
@@ -38,7 +38,7 @@ class LottieExample extends StatelessWidget {
           ElevatedButton.icon(
             onPressed: () {},
             icon: const Icon(Icons.arrow_forward),
-            label: const Text('Explore More'),
+            label: const Text('Explore More', style: TextStyle(color: Colors.white, fontSize: 16),),
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.deepPurple,
               padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 16),
