@@ -37,6 +37,7 @@ This initiative helps me understand third-party tools better, improve integratio
 - [x] **connectivity_plus** – (Added on: *May 10, 2025*) *Detect WiFi, mobile data, or no internet and react in real-time.*
 - [x] **flutter_secure_storage** – (Added on: *May 11, 2025*) *Securely store sensitive data like tokens and passwords using platform-specific secure storage.*
 - [x] **lottie** – (Added on: *May 12, 2025*) *Render high-quality vector animations using JSON*
+- [x] **awesome_snackbar_content** – *Beautiful and customizable snackbars with unique UI for different alert messages.*
 - [ ] Upcoming packages (Stay tuned...)
 
 ---
