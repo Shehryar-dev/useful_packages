@@ -25,7 +25,9 @@ class AwesomeSnackbarExample extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Awesome Snackbar Example'),
+        title: const Text('Awesome Snackbar Example', style: TextStyle(color: Colors.white, fontSize: 16),),
+        backgroundColor: Colors.indigo.shade900,
+        iconTheme: IconThemeData(color: Colors.white),
       ),
       body: Center(
         child: ElevatedButton(
