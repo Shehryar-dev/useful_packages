@@ -2,6 +2,7 @@
 import 'package:useful_packages/packages/22_lottie/lottie_package.dart';
 
 import '../constants/screen_paths.dart';
+import '../packages/23_awesome_snackbar_content/awesome_snackbar_content.dart';
 
 class UsefulPackageHomeScreen extends StatelessWidget {
   const UsefulPackageHomeScreen({super.key});
@@ -143,6 +144,15 @@ class UsefulPackageHomeScreen extends StatelessWidget {
         icon: Icons.animation,
         destination: const LottieExample(),
       ),
+
+
+      _PackageItem(
+        title: 'awesome_snackbar_content',
+        subtitle: 'Beautiful and customizable snackbars with unique UI',
+        icon: Icons.notification_important,
+        destination: const AwesomeSnackbarExample(),
+      ),
+
 
 
 
