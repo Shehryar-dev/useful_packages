@@ -38,6 +38,7 @@ This initiative helps me understand third-party tools better, improve integratio
 - [x] **flutter_secure_storage** – (Added on: *May 11, 2025*) *Securely store sensitive data like tokens and passwords using platform-specific secure storage.*
 - [x] **lottie** – (Added on: *May 12, 2025*) *Render high-quality vector animations using JSON*
 - [x] **awesome_snackbar_content** – *Beautiful and customizable snackbars with unique UI for different alert messages.*
+- [x] **flutter_form_builder** – (Added on: *May 22, 2025*) *Simplify form creation & validation with pre-built fields, custom validators, and dynamic form control.*
 - [ ] Upcoming packages (Stay tuned...)
 
 ---
