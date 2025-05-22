@@ -58,6 +58,8 @@ dependencies:
   flutter_secure_storage: ^9.2.4
   lottie: ^3.3.1
   awesome_snackbar_content: ^0.1.6
+  flutter_form_builder: ^10.0.1
+  form_builder_validators: ^11.1.2
 
 
 dev_dependencies:
