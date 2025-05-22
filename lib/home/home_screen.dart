@@ -1,5 +1,7 @@
 
 
+import 'package:useful_packages/packages/24_form_builder/form_builder.dart';
+
 import '../constants/screen_paths.dart';
 
 class UsefulPackageHomeScreen extends StatelessWidget {
@@ -150,6 +152,14 @@ class UsefulPackageHomeScreen extends StatelessWidget {
         icon: Icons.notification_important,
         destination: const AwesomeSnackbarExample(),
       ),
+
+      _PackageItem(
+        title: 'flutter_form_builder',
+        subtitle: 'Simplify form creation and validation in Flutter',
+        icon: Icons.assignment,
+        destination: RegistrationForm(),
+      ),
+
 
 
 
