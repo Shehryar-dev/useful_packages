@@ -53,6 +53,8 @@ export 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
 export 'package:flutter_animate/flutter_animate.dart';
 export 'package:chart_it/chart_it.dart';
 export 'package:go_router/go_router.dart';
+export 'package:flutter_form_builder/flutter_form_builder.dart';
+export 'package:form_builder_validators/form_builder_validators.dart';
 export 'package:flutter_iconly/flutter_iconly.dart';
 
 
