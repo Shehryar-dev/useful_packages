@@ -1,6 +1,8 @@
 
 
 
+import 'package:useful_packages/packages/25_flutter_iconly/flutter_iconly.dart';
+
 import '../constants/screen_paths.dart';
 
 class UsefulPackageHomeScreen extends StatelessWidget {
@@ -158,6 +160,14 @@ class UsefulPackageHomeScreen extends StatelessWidget {
         icon: Icons.assignment,
         destination: RegistrationForm(),
       ),
+
+      _PackageItem(
+        title: 'flutter_iconly',
+        subtitle: 'Modern and minimal icon pack with Light, Bold, Broken styles.',
+        icon: Icons.widgets_outlined,
+        destination: const IconlyScreen(),
+      ),
+
 
 
 
