@@ -1,5 +1,6 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_iconly/flutter_iconly.dart';
+
+
+import '../../constants/screen_paths.dart';
 
 class IconlyScreen extends StatelessWidget {
   const IconlyScreen({super.key});
