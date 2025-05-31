@@ -19,8 +19,6 @@ class IconlyScreen extends StatelessWidget {
             _buildIconRow('Bold', IconlyBold.home, IconlyBold.notification, IconlyBold.message),
             const Divider(),
             _buildIconRow('Broken', IconlyBroken.home, IconlyBroken.notification, IconlyBroken.message),
-            const Divider(),
-            _buildIconRow('Two-tone', IconlyTwoTone.home, IconlyTwoTone.notification, IconlyTwoTone.message),
           ],
         ),
       ),
