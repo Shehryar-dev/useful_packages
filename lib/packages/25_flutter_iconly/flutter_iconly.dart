@@ -8,7 +8,9 @@ class IconlyScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Iconly Icons Showcase'),
+        title: const Text('Iconly Icons Showcase', style: TextStyle(color: Colors.white, fontSize: 16),),
+        iconTheme: IconThemeData(color: Colors.white),
+        backgroundColor: Colors.indigo.shade900,
       ),
       body: Padding(
         padding: const EdgeInsets.all(16),
