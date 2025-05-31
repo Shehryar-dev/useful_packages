@@ -1,5 +1,6 @@
-import 'package:flutter/material.dart';
-import 'package:awesome_snackbar_content/awesome_snackbar_content.dart';
+
+
+import '../../constants/screen_paths.dart';
 
 class AwesomeSnackbarExample extends StatelessWidget {
   const AwesomeSnackbarExample({Key? key}) : super(key: key);
