@@ -60,6 +60,7 @@ dependencies:
   awesome_snackbar_content: ^0.1.6
   flutter_form_builder: ^10.0.1
   form_builder_validators: ^11.1.2
+  flutter_iconly: ^1.0.1
 
 
 dev_dependencies:
