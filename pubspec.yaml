@@ -61,6 +61,7 @@ dependencies:
   flutter_form_builder: ^10.0.1
   form_builder_validators: ^11.1.2
   flutter_iconly: ^1.0.1
+  animated_icon_button: ^1.0.2
 
 
 dev_dependencies:
