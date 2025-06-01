@@ -60,7 +60,6 @@ export 'package:flutter_iconly/flutter_iconly.dart';
 
 
 ///Flutter lib
-export 'dart:io';
 export 'package:flutter/material.dart';
 export 'package:flutter/foundation.dart';
 
