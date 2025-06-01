@@ -40,6 +40,7 @@ This initiative helps me understand third-party tools better, improve integratio
 - [x] **awesome_snackbar_content** – *Beautiful and customizable snackbars with unique UI for different alert messages.*
 - [x] **flutter_form_builder** – (Added on: *May 22, 2025*) *Simplify form creation & validation with pre-built fields, custom validators, and dynamic form control.*
 - [x] **flutter_iconly** – (Added on: *May 31, 2025*) *Modern and minimal icon pack with multiple styles: light, bold, broken, and two-tone.*
+- [x] **animated_icon_button** – (Added on: *June 1, 2025*) *A customizable animated icon widget that toggles between two states with smooth animation — perfect for like/favorite actions.*
 - [ ] Upcoming packages (Stay tuned...)
 
 ---
