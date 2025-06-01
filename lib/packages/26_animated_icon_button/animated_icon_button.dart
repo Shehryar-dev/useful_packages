@@ -9,7 +9,7 @@ class AnimatedIconButtonScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Animated Icon Button Example', style: TextStyle(color: Colors.white),),backgroundColor: Colors.indigo.shade900, iconTheme: IconThemeData(color: Colors.white),
+        title: const Text('Animated Icon Button Example', style: TextStyle(color: Colors.white,fontSize: 16),),backgroundColor: Colors.indigo.shade900, iconTheme: IconThemeData(color: Colors.white),
       ),
       body: Center(
         child: AnimatedIconButton(
