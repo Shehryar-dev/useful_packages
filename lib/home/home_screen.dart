@@ -2,6 +2,8 @@
 
 
 
+import 'package:useful_packages/packages/26_animated_icon_button/animated_icon_button.dart';
+
 import '../constants/screen_paths.dart';
 
 class UsefulPackageHomeScreen extends StatelessWidget {
@@ -165,6 +167,13 @@ class UsefulPackageHomeScreen extends StatelessWidget {
         subtitle: 'Modern and minimal icon pack with Light, Bold, Broken styles.',
         icon: Icons.widgets_outlined,
         destination: const IconlyScreen(),
+      ),
+
+      _PackageItem(
+        title: 'animated_icon_button',
+        subtitle: 'Beautiful animated toggle buttons (like, bookmark, etc.)',
+        icon: Icons.play_circle_fill_outlined,
+        destination: const AnimatedIconButtonScreen(),
       ),
 
 
