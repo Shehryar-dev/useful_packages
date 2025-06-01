@@ -28,6 +28,7 @@ export 'package:useful_packages/packages/22_lottie/lottie_package.dart';
 export '../packages/23_awesome_snackbar_content/awesome_snackbar_content.dart';
 export 'package:useful_packages/packages/24_form_builder/form_builder.dart';
 export 'package:useful_packages/packages/25_flutter_iconly/flutter_iconly.dart';
+export 'package:useful_packages/packages/26_animated_icon_button/animated_icon_button.dart';
 
 
 ///Widgets
@@ -57,7 +58,7 @@ export 'package:awesome_snackbar_content/awesome_snackbar_content.dart';
 export 'package:flutter_form_builder/flutter_form_builder.dart';
 export 'package:form_builder_validators/form_builder_validators.dart';
 export 'package:flutter_iconly/flutter_iconly.dart';
-
+export 'package:animated_icon_button/animated_icon_button.dart';
 
 ///Flutter lib
 export 'package:flutter/material.dart';

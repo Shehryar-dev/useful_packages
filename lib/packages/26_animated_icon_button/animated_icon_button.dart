@@ -1,5 +1,6 @@
-import 'package:flutter/material.dart';
-import 'package:animated_icon_button/animated_icon_button.dart';
+
+
+import '../../constants/screen_paths.dart';
 
 class AnimatedIconButtonScreen extends StatelessWidget {
   const AnimatedIconButtonScreen({super.key});
