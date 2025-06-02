@@ -59,6 +59,7 @@ export 'package:flutter_form_builder/flutter_form_builder.dart';
 export 'package:form_builder_validators/form_builder_validators.dart';
 export 'package:flutter_iconly/flutter_iconly.dart';
 export 'package:animated_icon_button/animated_icon_button.dart';
+export 'package:flutter_vector_icons/flutter_vector_icons.dart';
 
 ///Flutter lib
 export 'package:flutter/material.dart';
