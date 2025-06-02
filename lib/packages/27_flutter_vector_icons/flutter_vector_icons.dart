@@ -8,7 +8,9 @@ class VectorIconsExampleScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Vector Icons Example"),
+        title: const Text("Vector Icons Example", style: TextStyle(color: Colors.white,fontSize: 16),),
+        iconTheme: IconThemeData(color: Colors.white),
+        backgroundColor: Colors.indigo.shade900,
         centerTitle: true,
       ),
       body: ListView(
