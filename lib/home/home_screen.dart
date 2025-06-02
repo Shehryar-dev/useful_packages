@@ -1,3 +1,5 @@
+import 'package:useful_packages/packages/27_flutter_vector_icons/flutter_vector_icons.dart';
+
 import '../constants/screen_paths.dart';
 
 class UsefulPackageHomeScreen extends StatelessWidget {
@@ -171,6 +173,12 @@ class UsefulPackageHomeScreen extends StatelessWidget {
       ),
 
 
+      _PackageItem(
+        title: 'flutter_vector_icons',
+        subtitle: 'Access to 20+ icon fonts including AntDesign, Ionicons, FontAwesome etc.',
+        icon: Icons.widgets_outlined,
+        destination: const VectorIconsExampleScreen(),
+      ),
 
 
 
