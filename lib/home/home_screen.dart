@@ -1,4 +1,3 @@
-import 'package:useful_packages/packages/27_flutter_vector_icons/flutter_vector_icons.dart';
 
 import '../constants/screen_paths.dart';
 

@@ -29,6 +29,7 @@ export '../packages/23_awesome_snackbar_content/awesome_snackbar_content.dart';
 export 'package:useful_packages/packages/24_form_builder/form_builder.dart';
 export 'package:useful_packages/packages/25_flutter_iconly/flutter_iconly.dart';
 export 'package:useful_packages/packages/26_animated_icon_button/animated_icon_button.dart';
+export 'package:useful_packages/packages/27_flutter_vector_icons/flutter_vector_icons.dart';
 
 
 ///Widgets
