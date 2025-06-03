@@ -1,5 +1,6 @@
-import 'package:flutter/material.dart';
-import 'package:line_icons/line_icons.dart';
+
+
+import '../../constants/screen_paths.dart';
 
 class LineIconsExampleScreen extends StatelessWidget {
   const LineIconsExampleScreen({super.key});
