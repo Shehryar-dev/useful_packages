@@ -1,5 +1,4 @@
 
-import 'package:useful_packages/packages/28_line_icons/line_icons.dart';
 
 import '../constants/screen_paths.dart';
 
