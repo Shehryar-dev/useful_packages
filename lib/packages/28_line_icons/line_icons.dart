@@ -9,7 +9,8 @@ class LineIconsExampleScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Line Icons Example"),
+        title: const Text("Line Icons Example", style: TextStyle(color: Colors.white),),
+        backgroundColor: Colors.indigo.shade900,
         centerTitle: true,
       ),
       body: ListView(
