@@ -1,4 +1,6 @@
 
+import 'package:useful_packages/packages/28_line_icons/line_icons.dart';
+
 import '../constants/screen_paths.dart';
 
 class UsefulPackageHomeScreen extends StatelessWidget {
@@ -179,6 +181,13 @@ class UsefulPackageHomeScreen extends StatelessWidget {
         destination: const VectorIconsExampleScreen(),
       ),
 
+
+      _PackageItem(
+        title: 'line_icons',
+        subtitle: 'Lightweight and modern icon pack — easily themeable for clean UIs.',
+        icon: Icons.line_style,
+        destination: const LineIconsExampleScreen(),
+      ),
 
 
 
