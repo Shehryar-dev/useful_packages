@@ -42,7 +42,7 @@ This initiative helps me understand third-party tools better, improve integratio
 - [x] **flutter_iconly** – (Added on: *May 31, 2025*) *Modern and minimal icon pack with multiple styles: light, bold, broken, and two-tone.*
 - [x] **animated_icon_button** – (Added on: *June 1, 2025*) *A customizable animated icon widget that toggles between two states with smooth animation — perfect for like/favorite actions.*
 - [x] **flutter_vector_icons** – (Added on: *June 2, 2025*) *Access over 20 different icon fonts like FontAwesome, Ionicons, Feather, AntDesign & more — ideal for crafting beautiful UIs.*
-- [x] **line_icons** – (Added on: *May 13, 2025*) *Lightweight and modern icon pack — perfect for elegant, easily themeable UIs.*
+- [x] **line_icons** – (Added on: *June 3, 2025*) *Lightweight and modern icon pack — perfect for elegant, easily themeable UIs.*
 - [ ] Upcoming packages (Stay tuned...)
 
 ---
