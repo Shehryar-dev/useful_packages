@@ -63,6 +63,7 @@ dependencies:
   flutter_iconly: ^1.0.1
   animated_icon_button: ^1.0.2
   flutter_vector_icons: ^2.0.0
+  line_icons: ^2.0.3
 
 
 dev_dependencies:
