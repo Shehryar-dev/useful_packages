@@ -64,6 +64,7 @@ dependencies:
   animated_icon_button: ^1.0.2
   flutter_vector_icons: ^2.0.0
   line_icons: ^2.0.3
+  confetti: ^0.8.0
 
 
 dev_dependencies:
