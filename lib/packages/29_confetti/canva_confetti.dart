@@ -35,6 +35,8 @@ class _ConfettiExampleScreenState extends State<ConfettiExampleScreen> {
       appBar: AppBar(title: const Text("Confetti Celebration", style: TextStyle(color: Colors.white), ), iconTheme: IconThemeData(color: Colors.white),backgroundColor: Colors.indigo.shade900,),
       body: Container(
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Stack(
               alignment: Alignment.center,
