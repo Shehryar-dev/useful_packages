@@ -32,6 +32,7 @@ export 'package:useful_packages/packages/26_animated_icon_button/animated_icon_b
 export 'package:useful_packages/packages/27_flutter_vector_icons/flutter_vector_icons.dart';
 export 'package:useful_packages/packages/28_line_icons/line_icons.dart';
 export 'package:line_icons/line_icons.dart';
+export 'package:useful_packages/packages/29_confetti/canva_confetti.dart';
 
 ///Widgets
 
