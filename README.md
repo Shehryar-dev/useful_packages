@@ -43,6 +43,7 @@ This initiative helps me understand third-party tools better, improve integratio
 - [x] **animated_icon_button** – (Added on: *June 1, 2025*) *A customizable animated icon widget that toggles between two states with smooth animation — perfect for like/favorite actions.*
 - [x] **flutter_vector_icons** – (Added on: *June 2, 2025*) *Access over 20 different icon fonts like FontAwesome, Ionicons, Feather, AntDesign & more — ideal for crafting beautiful UIs.*
 - [x] **line_icons** – (Added on: *June 3, 2025*) *Lightweight and modern icon pack — perfect for elegant, easily themeable UIs.*
+- [x] **confetti** – (Added on: *June 4, 2025*) *Celebrate events with confetti explosions, ribbon blasts, and reward animations.*
 - [ ] Upcoming packages (Stay tuned...)
 
 ---
