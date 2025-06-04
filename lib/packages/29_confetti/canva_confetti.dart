@@ -31,7 +31,7 @@ class _ConfettiExampleScreenState extends State<ConfettiExampleScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Confetti Celebration")),
+      appBar: AppBar(title: const Text("Confetti Celebration", )),
       body: Stack(
         alignment: Alignment.center,
         children: [

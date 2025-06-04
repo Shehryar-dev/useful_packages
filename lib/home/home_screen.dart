@@ -186,6 +186,12 @@ class UsefulPackageHomeScreen extends StatelessWidget {
         destination: const LineIconsExampleScreen(),
       ),
 
+      _PackageItem(
+        title: 'confetti',
+        subtitle: 'Celebrate events with animated confetti and ribbon bursts!',
+        icon: Icons.celebration,
+        destination: const ConfettiExampleScreen(),
+      ),
 
 
 
