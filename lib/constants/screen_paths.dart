@@ -63,6 +63,7 @@ export 'package:form_builder_validators/form_builder_validators.dart';
 export 'package:flutter_iconly/flutter_iconly.dart';
 export 'package:animated_icon_button/animated_icon_button.dart';
 export 'package:flutter_vector_icons/flutter_vector_icons.dart';
+export 'package:confetti/confetti.dart';
 
 ///Flutter lib
 export 'package:flutter/material.dart';

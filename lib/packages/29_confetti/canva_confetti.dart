@@ -1,5 +1,6 @@
-import 'package:flutter/material.dart';
-import 'package:confetti/confetti.dart';
+
+
+import '../../constants/screen_paths.dart';
 
 class ConfettiExampleScreen extends StatefulWidget {
   const ConfettiExampleScreen({super.key});
