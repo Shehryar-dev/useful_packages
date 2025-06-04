@@ -1,3 +1,5 @@
+import 'package:useful_packages/packages/29_confetti/canva_confetti.dart';
+
 import '../constants/screen_paths.dart';
 
 class UsefulPackageHomeScreen extends StatelessWidget {
