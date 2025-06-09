@@ -6,17 +6,25 @@ class AnimatedThemeSwitcherExample extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // initial theme
-    final light = ThemeData.light(useMaterial3: true);
-    final dark  = ThemeData.dark(useMaterial3: true);
+    final lightTheme = ThemeData.light(useMaterial3: true);
+    final darkTheme = ThemeData.dark(useMaterial3: true);
 
     return ThemeProvider(
-      initTheme: light,
-      builder: (_, myTheme) => ThemeSwitcher(
-        builder: (_, __) => MaterialApp(
-          debugShowCheckedModeBanner: false,
-          theme: myTheme,
-          home: ThemeSwitcherHome(light: light, dark: dark),
+      initTheme: lightTheme,
+      child: Builder(
+        builder: (context) => ThemeSwitchingArea(
+          child: Builder(
+            builder: (context) {
+              return MaterialApp(
+                debugShowCheckedModeBanner: false,
+                theme: Theme.of(context),
+                home: ThemeSwitcherHome(
+                  light: lightTheme,
+                  dark: darkTheme,
+                ),
+              );
+            },
+          ),
         ),
       ),
     );
@@ -31,26 +39,24 @@ class ThemeSwitcherHome extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final currentBrightness = ThemeProvider.of(context).theme.brightness;
+    final isLight = Theme.brightnessOf(context) == Brightness.light;
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Animated Theme Switcher')),
+      appBar: AppBar(title: const Text("Animated Theme Switcher")),
       body: Center(
         child: ThemeSwitcher(
-          clipper: const ThemeSwitcherBoxClipper(),          // radial reveal
-          builder: (context) => IconButton(
-            iconSize: 56,
-            icon: Icon(
-              currentBrightness == Brightness.light
-                  ? Icons.dark_mode
-                  : Icons.light_mode,
-            ),
-            onPressed: () {
-              ThemeSwitcher.of(context).changeTheme(
-                theme: currentBrightness == Brightness.light ? dark : light,
-              );
-            },
-          ),
+          clipper: const ThemeSwitcherBoxClipper(),
+          builder: (context) {
+            return IconButton(
+              icon: Icon(isLight ? Icons.dark_mode : Icons.light_mode),
+              iconSize: 60,
+              onPressed: () {
+                ThemeSwitcher.of(context).changeTheme(
+                  theme: isLight ? dark : light,
+                );
+              },
+            );
+          },
         ),
       ),
     );
