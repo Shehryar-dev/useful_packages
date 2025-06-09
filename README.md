@@ -44,6 +44,7 @@ This initiative helps me understand third-party tools better, improve integratio
 - [x] **flutter_vector_icons** – (Added on: *June 2, 2025*) *Access over 20 different icon fonts like FontAwesome, Ionicons, Feather, AntDesign & more — ideal for crafting beautiful UIs.*
 - [x] **line_icons** – (Added on: *June 3, 2025*) *Lightweight and modern icon pack — perfect for elegant, easily themeable UIs.*
 - [x] **confetti** – (Added on: *June 4, 2025*) *Celebrate events with confetti explosions, ribbon blasts, and reward animations.*
+- [x] **animated_theme_switcher** – (Added on: *May 13, 2025*) *Easily add beautifully animated light/dark-theme toggles.*
 - [ ] Upcoming packages (Stay tuned...)
 
 ---
