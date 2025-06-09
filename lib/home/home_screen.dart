@@ -1,5 +1,4 @@
 
-import 'package:useful_packages/packages/30_animated_theme_switcher/animated_theme_switcher.dart';
 
 import '../constants/screen_paths.dart';
 

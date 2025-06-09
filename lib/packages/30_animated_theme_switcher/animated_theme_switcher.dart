@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:animated_theme_switcher/animated_theme_switcher.dart';
+
+import '../../constants/screen_paths.dart';
 
 class AnimatedThemeSwitcherExample extends StatelessWidget {
   const AnimatedThemeSwitcherExample({super.key});

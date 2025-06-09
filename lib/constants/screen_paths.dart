@@ -33,6 +33,7 @@ export 'package:useful_packages/packages/27_flutter_vector_icons/flutter_vector_
 export 'package:useful_packages/packages/28_line_icons/line_icons.dart';
 export 'package:line_icons/line_icons.dart';
 export 'package:useful_packages/packages/29_confetti/canva_confetti.dart';
+export 'package:useful_packages/packages/30_animated_theme_switcher/animated_theme_switcher.dart';
 
 ///Widgets
 
@@ -64,6 +65,7 @@ export 'package:flutter_iconly/flutter_iconly.dart';
 export 'package:animated_icon_button/animated_icon_button.dart';
 export 'package:flutter_vector_icons/flutter_vector_icons.dart';
 export 'package:confetti/confetti.dart';
+export 'package:animated_theme_switcher/animated_theme_switcher.dart';
 
 ///Flutter lib
 export 'package:flutter/material.dart';
