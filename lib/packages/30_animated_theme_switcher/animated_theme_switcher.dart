@@ -6,12 +6,17 @@ class AnimatedThemeSwitcherExample extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // initial theme
+    final light = ThemeData.light(useMaterial3: true);
+    final dark  = ThemeData.dark(useMaterial3: true);
+
     return ThemeProvider(
-      initTheme: ThemeData.light(),
+      initTheme: light,
       builder: (_, myTheme) => ThemeSwitcher(
-        builder: (context) => MaterialApp(
+        builder: (_, __) => MaterialApp(
+          debugShowCheckedModeBanner: false,
           theme: myTheme,
-          home: const ThemeSwitcherHome(),
+          home: ThemeSwitcherHome(light: light, dark: dark),
         ),
       ),
     );
@@ -19,30 +24,33 @@ class AnimatedThemeSwitcherExample extends StatelessWidget {
 }
 
 class ThemeSwitcherHome extends StatelessWidget {
-  const ThemeSwitcherHome({super.key});
+  const ThemeSwitcherHome({super.key, required this.light, required this.dark});
+
+  final ThemeData light;
+  final ThemeData dark;
 
   @override
   Widget build(BuildContext context) {
+    final currentBrightness = ThemeProvider.of(context).theme.brightness;
+
     return Scaffold(
-      appBar: AppBar(title: const Text("Animated Theme Switcher")),
+      appBar: AppBar(title: const Text('Animated Theme Switcher')),
       body: Center(
         child: ThemeSwitcher(
-          clipper: const ThemeSwitcherBoxClipper(),
-          builder: (context) {
-            return IconButton(
-              icon: Icon(
-                ThemeProvider.of(context).brightness == Brightness.light
-                    ? Icons.dark_mode
-                    : Icons.light_mode,
-                size: 40,
-              ),
-              onPressed: () => ThemeSwitcher.of(context).changeTheme(
-                theme: ThemeProvider.of(context).brightness == Brightness.light
-                    ? ThemeData.dark()
-                    : ThemeData.light(),
-              ),
-            );
-          },
+          clipper: const ThemeSwitcherBoxClipper(),          // radial reveal
+          builder: (context) => IconButton(
+            iconSize: 56,
+            icon: Icon(
+              currentBrightness == Brightness.light
+                  ? Icons.dark_mode
+                  : Icons.light_mode,
+            ),
+            onPressed: () {
+              ThemeSwitcher.of(context).changeTheme(
+                theme: currentBrightness == Brightness.light ? dark : light,
+              );
+            },
+          ),
         ),
       ),
     );

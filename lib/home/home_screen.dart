@@ -1,4 +1,6 @@
 
+import 'package:useful_packages/packages/30_animated_theme_switcher/animated_theme_switcher.dart';
+
 import '../constants/screen_paths.dart';
 
 class UsefulPackageHomeScreen extends StatelessWidget {
@@ -194,6 +196,12 @@ class UsefulPackageHomeScreen extends StatelessWidget {
         destination: const ConfettiExampleScreen(),
       ),
 
+      _PackageItem(
+        title: 'animated_theme_switcher',
+        subtitle: 'Smooth light ↔ dark theme transitions',
+        icon: Icons.brightness_6,
+        destination: const AnimatedThemeSwitcherExample(),
+      ),
 
 
       // Future package screens can be added here
