@@ -42,7 +42,7 @@ class ThemeSwitcherHome extends StatelessWidget {
     final isLight = Theme.brightnessOf(context) == Brightness.light;
 
     return Scaffold(
-      appBar: AppBar(title: const Text("Animated Theme Switcher")),
+      appBar: AppBar(title: const Text("Animated Theme Switcher",style: TextStyle(fontSize: 16),)),
       body: Center(
         child: ThemeSwitcher(
           clipper: const ThemeSwitcherBoxClipper(),
