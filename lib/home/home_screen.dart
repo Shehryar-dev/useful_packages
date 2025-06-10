@@ -1,5 +1,7 @@
 
 
+import 'package:useful_packages/packages/31_cached_network_image/cached_network_image.dart';
+
 import '../constants/screen_paths.dart';
 
 class UsefulPackageHomeScreen extends StatelessWidget {
