@@ -9,7 +9,7 @@ class CachedImageExampleScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Cached Network Image Demo")),
+      appBar: AppBar(title: const Text("Cached Network Image Demo", style: TextStyle(fontSize: 16),)),
       body: Center(
         child: CachedNetworkImage(
           imageUrl: imageUrl,
