@@ -66,6 +66,7 @@ dependencies:
   line_icons: ^2.0.3
   confetti: ^0.8.0
   animated_theme_switcher: ^2.0.10
+  cached_network_image: ^3.4.1
 
 
 dev_dependencies:
