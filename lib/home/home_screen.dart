@@ -203,7 +203,12 @@ class UsefulPackageHomeScreen extends StatelessWidget {
       ),
 
 
-
+      _PackageItem(
+        title: 'cached_network_image',
+        subtitle: 'Efficient image caching with placeholders & fade-in animations',
+        icon: Icons.cloud_download,
+        destination: const CachedImageExampleScreen(),
+      ),
       // Future package screens can be added here
     ];
 
