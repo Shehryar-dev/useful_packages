@@ -1,6 +1,7 @@
 
 
 import 'package:useful_packages/packages/31_cached_network_image/cached_network_image.dart';
+import 'package:useful_packages/packages/32_flutter_spinkit/flutter_spinkit.dart';
 
 import '../constants/screen_paths.dart';
 
@@ -211,7 +212,17 @@ class UsefulPackageHomeScreen extends StatelessWidget {
         icon: Icons.cloud_download,
         destination: const CachedImageExampleScreen(),
       ),
+
+
       // Future package screens can be added here
+
+      _PackageItem(
+        title: 'flutter_spinkit',
+        subtitle: 'A collection of animated loading indicators',
+        icon: Icons.autorenew,
+        destination: const SpinkitExampleScreen(),
+      ),
+
     ];
 
     return Scaffold(

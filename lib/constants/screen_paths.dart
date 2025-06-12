@@ -66,6 +66,7 @@ export 'package:animated_icon_button/animated_icon_button.dart';
 export 'package:flutter_vector_icons/flutter_vector_icons.dart';
 export 'package:confetti/confetti.dart';
 export 'package:animated_theme_switcher/animated_theme_switcher.dart';
+export 'package:flutter_spinkit/flutter_spinkit.dart';
 
 ///Flutter lib
 export 'package:flutter/material.dart';
