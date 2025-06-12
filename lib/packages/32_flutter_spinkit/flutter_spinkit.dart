@@ -9,7 +9,7 @@ class SpinkitExampleScreen extends StatelessWidget {
     final color = Theme.of(context).colorScheme.secondary;
 
     return Scaffold(
-      appBar: AppBar(title: const Text("SpinKit Loading Animations")),
+      appBar: AppBar(title: const Text("SpinKit Loading Animations", style: TextStyle(color: Colors.white, fontSize: 16),),backgroundColor: Colors.indigo.shade900, iconTheme: IconThemeData(color: Colors.white),),
       body: Padding(
         padding: const EdgeInsets.all(24),
         child: Column(
@@ -17,11 +17,11 @@ class SpinkitExampleScreen extends StatelessWidget {
           children: [
             SpinKitCircle(color: color, size: 60),
             const SizedBox(height: 24),
-            SpinKitFadingCube(color: color, size: 60),
+            SpinKitFadingCube(color: Colors.green, size: 60),
             const SizedBox(height: 24),
-            SpinKitChasingDots(color: color, size: 60),
+            SpinKitChasingDots(color: Colors.cyan, size: 60),
             const SizedBox(height: 24),
-            SpinKitWave(color: color, size: 60, type: SpinKitWaveType.center),
+            SpinKitWave(color: Colors.blue, size: 60, type: SpinKitWaveType.center),
           ],
         ),
       ),
