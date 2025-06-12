@@ -46,7 +46,7 @@ This initiative helps me understand third-party tools better, improve integratio
 - [x] **confetti** – (Added on: *June 4, 2025*) *Celebrate events with confetti explosions, ribbon blasts, and reward animations.*
 - [x] **animated_theme_switcher** – (Added on: *June 9, 2025*) *Easily add beautifully animated light/dark-theme toggles.*
 - [x] **cached_network_image** – (Added on: *June 10, 2025*) *Efficiently cache network images with customizable placeholders, error handling, rounded corners, and fade-in effects.*
-- [x] **cached_network_image** – (Added on: *May 14, 2025*) *Efficiently cache network images with customizable placeholders, error handling, rounded corners, and fade-in effects.*
+- [x] **cached_network_image** – (Added on: *June 11, 2025*) *Efficiently cache network images with customizable placeholders, error handling, rounded corners, and fade-in effects.*
 - [ ] Upcoming packages (Stay tuned...)
 
 ---

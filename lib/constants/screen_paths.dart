@@ -34,7 +34,8 @@ export 'package:useful_packages/packages/28_line_icons/line_icons.dart';
 export 'package:line_icons/line_icons.dart';
 export 'package:useful_packages/packages/29_confetti/canva_confetti.dart';
 export 'package:useful_packages/packages/30_animated_theme_switcher/animated_theme_switcher.dart';
-
+export 'package:useful_packages/packages/31_cached_network_image/cached_network_image.dart';
+export 'package:useful_packages/packages/32_flutter_spinkit/flutter_spinkit.dart';
 ///Widgets
 
 
