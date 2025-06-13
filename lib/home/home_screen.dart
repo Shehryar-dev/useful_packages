@@ -218,6 +218,13 @@ class UsefulPackageHomeScreen extends StatelessWidget {
         destination: const SpinkitExampleScreen(),
       ),
 
+      _PackageItem(
+        title: 'intl',
+        subtitle: 'Internationalization: date, number & locale formatting',
+        icon: Icons.language,
+        destination: const IntlExampleScreen(),
+      ),
+
     ];
 
     return Scaffold(
