@@ -17,7 +17,7 @@ class IntlExampleScreen extends StatelessWidget {
     final formattedNumberFR = NumberFormat.currency(locale: 'fr_FR', symbol: '€').format(number);
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Intl Formatting Example')),
+      appBar: AppBar(title: const Text('Intl Formatting Example',style: TextStyle(color: Colors.white, fontSize: 16),),backgroundColor: Colors.indigo.shade900, iconTheme: IconThemeData(color: Colors.white),),
       body: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
