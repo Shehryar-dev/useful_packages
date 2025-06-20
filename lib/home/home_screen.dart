@@ -1,5 +1,6 @@
 import '../constants/screen_paths.dart';
 import '../packages/33_intl/intl.dart';
+import '../packages/34_get/getx.dart';
 
 class UsefulPackageHomeScreen extends StatelessWidget {
   const UsefulPackageHomeScreen({super.key});
@@ -225,6 +226,13 @@ class UsefulPackageHomeScreen extends StatelessWidget {
         icon: Icons.language,
         destination: const IntlExampleScreen(),
       ),
+      _PackageItem(
+        title: 'GetX',
+        subtitle: 'Simplified state management & routing',
+        icon: Icons.control_camera_outlined,
+        destination: const GetXExample(),
+      ),
+
 
     ];
 
