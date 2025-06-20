@@ -15,14 +15,17 @@ class GetXExample extends StatelessWidget {
     final controller = Get.put(CounterController());
 
     return Scaffold(
-      appBar: AppBar(title: const Text('GetX Counter Example')),
+      appBar: AppBar(title: const Text('GetX Counter Example',style: TextStyle(color: Colors.white,fontSize: 16),),
+        iconTheme: IconThemeData(color: Colors.white),
+        backgroundColor: Colors.indigo.shade900,),
       body: Center(
         child: Obx(() => Text('Count: ${controller.count}',
             style: const TextStyle(fontSize: 24))),
       ),
       floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.indigo.shade900,
         onPressed: controller.increment,
-        child: const Icon(Icons.add),
+        child: const Icon(Icons.add, color: Colors.white,),
       ),
     );
   }
