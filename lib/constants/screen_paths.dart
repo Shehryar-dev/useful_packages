@@ -68,7 +68,8 @@ export 'package:flutter_vector_icons/flutter_vector_icons.dart';
 export 'package:confetti/confetti.dart';
 export 'package:animated_theme_switcher/animated_theme_switcher.dart';
 export 'package:flutter_spinkit/flutter_spinkit.dart';
-
+export 'package:cached_network_image/cached_network_image.dart';
+export 'package:get/get.dart';
 ///Flutter lib
 export 'package:flutter/material.dart';
 export 'package:flutter/foundation.dart';

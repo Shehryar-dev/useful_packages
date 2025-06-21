@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
+
+import '../../constants/screen_paths.dart';
 
 class CounterController extends GetxController {
   var count = 0.obs;

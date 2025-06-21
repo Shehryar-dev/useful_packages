@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:cached_network_image/cached_network_image.dart';
+
+import '../../constants/screen_paths.dart';
 
 class CachedImageExampleScreen extends StatelessWidget {
   const CachedImageExampleScreen({super.key});
