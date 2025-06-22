@@ -48,7 +48,7 @@ This initiative helps me understand third-party tools better, improve integratio
 - [x] **cached_network_image** – (Added on: *June 10, 2025*) *Efficiently cache network images with customizable placeholders, error handling, rounded corners, and fade-in effects.*
 - [x] **flutter_spinkit** – (Added on: *June 12, 2025*) *A rich collection of loading spinners — easy to customize & perfect for enhancing app UX during data fetch or long tasks.*
 - [x] **intl** – (Added on: *June 13, 2025*) *Internationalization package for date/time formatting, currency, numbers, and locale-aware formatting.*
-- [x] **get** – (Added on: *May 16, 2025*) *Powerful yet lightweight solution for routing, state management, and dependency injection with minimal boilerplate.*
+- [x] **get** – (Added on: *June 20, 2025*) *Powerful yet lightweight solution for routing, state management, and dependency injection with minimal boilerplate.*
 - [ ] Upcoming packages (Stay tuned...)
 
 ---
